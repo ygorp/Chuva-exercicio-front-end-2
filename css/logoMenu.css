@@ -167,40 +167,8 @@ header {
   font-size: 10px;
 }
 
-#btn-mobile {
-  display: none;
-}
-
 @media (max-width: 1366px) {
   .texto2 {
     font-size: 16px;
-  }
-}
-
-@media (max-width: 920px) {
-  #btn-mobile {
-    display: block;
-  }
-
-  .input-topo {
-    display: none;
-    position: absolute;
-    
-  }
-
-  .texto-perfil-topo {
-    display: none;
-    position: absolute;
-    
-  }
-
-  .img-perfil-topo {
-    display: none;
-    position: absolute;
-    
-  }
-
-  #menu-mobile.active {
-    display: flex;
   }
 }
