@@ -81,7 +81,7 @@ header {
   font-family: 'Roboto', sans-serif;
   font-style: normal;
   font-weight: 400;
-  font-size: 22px;
+  font-size: 19px;
   color: #725C5C;
 }
 
@@ -92,4 +92,72 @@ header {
   font-weight: 400;
   font-size: 14px;
   color: #725C5C;
+}
+
+.input-topo select {
+  margin-top: 15px;
+  width: 97px;
+  height: 34px;
+  padding-left: 25px;
+  border: 1px solid #CCCCCC;
+  border-radius: 3px;
+  background: #FDF1EB;
+  margin-left: 350px;
+}
+
+.input-topo img {
+  position: absolute;
+  margin-left: 356px;
+  margin-top: 20px;
+  width: 22px;
+  height: 22px;
+}
+
+.texto-perfil-topo {
+  display: flex;
+  flex-direction: column;
+  margin-top: 15px;
+  margin-left: 300px;
+}
+
+.texto-perfil-topo h2 {
+  font-family: 'Quicksand', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  text-align: right;
+  color: #333333;
+}
+
+.texto-perfil-topo h3 {
+  font-family: 'Quicksand', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  text-align: right;
+  color: #333333;
+}
+
+.img-perfil-topo img {
+  width: 48px;
+  height: 48px;
+  border-radius: 100%;
+  margin-top: 9px;
+  margin-left: 10px;
+  margin-right: 50px;
+}
+
+.img-perfil-topo p {
+  margin-left: 48px;
+  margin-top: -53px;
+  padding-left: 3px;
+  background: #F85959;
+  width: 12px;
+  height: 12px;
+  border-radius: 10px;
+  color: #FFFFFF;
+  font-family: 'Roboto', sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 10px;
 }
