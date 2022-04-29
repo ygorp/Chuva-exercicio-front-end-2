@@ -35,6 +35,23 @@ header {
   height: 258px;
 }
 
-.logo-menu nav {
-  
+.menu-nav {
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  flex-direction: column;
+  gap: 20px;
 }
+
+.menu-nav a {
+  width: 220px;
+  height: 33px;
+  font-family: 'Quicksand', sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 15px;
+  color: #725C5C;
+  text-indent: 25px;
+  border-bottom: 2px solid #E7E7E7;
+}
+
